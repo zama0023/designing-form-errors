@@ -23,7 +23,7 @@ html {
 }
 
 .is-validated > .error-message:first-child,
-.is-validated input:invalid + .errormessage,
+.is-validated input:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
